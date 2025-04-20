@@ -21,7 +21,9 @@
 Inviare - Cross-Platform Webhook Sender
 
 Name:  HelloBot
+
 Webhook URL:  https://discord.com/api/webhooks/... 
+
 Message: Hello from Inviare!
 
 [Message sent successfully!]
@@ -35,9 +37,11 @@ Message: Hello from Inviare!
 ```bash
 sudo apt install libcurl4-openssl-dev libncurses-dev
 gcc inviare.c -o inviare -lcurl -lncurses
+```
 
-Windows (Using MinGW)
+### Windows (Using MinGW)
 
+```
 1. Install PDCurses and libcurl for Windows
 
 
@@ -46,12 +50,13 @@ Windows (Using MinGW)
 
 
 gcc inviare.c -o inviare.exe -lcurl -lpdcurses
-
+```
 
 ---
 
-Usage
+## Usage
 
+```
 ./inviare
 
 Follow the prompts to:
@@ -63,7 +68,7 @@ Paste your webhook URL
 Type your message
 
 Hit Enter to send!
-
+```
 
 
 ---
